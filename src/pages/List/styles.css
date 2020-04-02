@@ -1,0 +1,41 @@
+.list-container {
+    display: flex;
+    margin: 80px auto;
+  }
+  .anime-display {
+    flex: 1;
+  }
+  .anime-display ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 20px;
+    align-items: center;
+    margin: 10px auto;
+    padding: 0 90px;
+  }
+  
+  .anime-display li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .anime-display li img {
+    width: 100%;
+    max-width: 200px;
+  
+    height: 100%;
+    max-height: 300px;
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    border-radius: 8px;
+    transition: 1s;
+  }
+  
+  .anime-display li img:hover {
+    transform: scale(1.09);
+  }
+  

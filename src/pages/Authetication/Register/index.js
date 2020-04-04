@@ -26,7 +26,7 @@ export default function Register() {
   }, [user, history]);
 
   return (
-    <div className="logon-container">
+    <div className="register-container">
       <section className="form">
         <img src={logoImg} alt="Logo" />
         <form onSubmit={handleRegister}>
@@ -47,7 +47,7 @@ export default function Register() {
             Cadastrar
           </button>
           <Link to="/login" className="back-link">
-            <FiArrowLeft size={16} color="#23231f" />
+            <FiArrowLeft size={16} color="#F7882F" />
             Voltar login
           </Link>
         </form>

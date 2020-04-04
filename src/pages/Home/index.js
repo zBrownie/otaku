@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import "./styles.css";
 import { getAnimesDaily } from "../../services/firebase_store";
 import { AiFillFire, AiFillForward } from "react-icons/ai";
-import { useDispatch, useSelector } from "react-redux";
+import {  useSelector } from "react-redux";
 export default function Home() {
   const [daily, setdaily] = useState([]);
 

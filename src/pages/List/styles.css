@@ -1,20 +1,20 @@
 .list-container {
     display: flex;
     margin: 80px auto;
+    width: 100%;
   }
-  .anime-display {
+  .list-display {
     flex: 1;
+    width: 100%;
   }
-  .anime-display ul {
+  .list-display ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-gap: 20px;
     align-items: center;
-    margin: 10px auto;
-    padding: 0 90px;
-  }
+    }
   
-  .anime-display li {
+  .list-display li {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,7 +22,7 @@
     list-style: none;
   }
   
-  .anime-display li img {
+  .list-display li img {
     width: 100%;
     max-width: 200px;
   
@@ -35,7 +35,20 @@
     transition: 1s;
   }
   
-  .anime-display li img:hover {
+  .list-display li img:hover {
     transform: scale(1.09);
   }
+
+  .admin-menu{
+    display: flex;
+    justify-content: space-between;
+  }
   
+  .admin-menu button{
+    border: 0;
+    color: #fff;
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    border-radius: 4px;
+  }

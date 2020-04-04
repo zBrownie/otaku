@@ -1,7 +1,7 @@
 .headercss {
   background: #6b7a8f;
   height: 66px;
-
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
